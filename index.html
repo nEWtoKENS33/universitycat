@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>UNIVERSITY CAT</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="shortcut icon" href="img/lgcoin.png">
+</head>
+<body>
+	<div class="opac">
+		<div id="nav">
+			<a href="#" onclick="slowScroll('#main')"><img src="img/main.gif"></a>
+			<a href="#" onclick="slowScroll('#about')"><img src="img/about.gif"></a>
+			<a href="#" onclick="slowScroll('#token')"><img src="img/token.gif"></a>
+		</div>
+		<div class="trans"></div>
+		<div id="main">
+		<!-- <img src="img/run.gif"> -->
+		</div>
+		<div id="about">
+			<div class="tag"><img src="img/about.gif"></div>
+			<div class="content">
+				<div class="text">
+					<p>Stewie had a rough time trying to figure out what to do with his life he was poor and dumb af but then noticed crypto is
+						enough retarded to give money with literally no brain!</p>
+				</div>
+				<div class="cimg">
+					<img src="img/base.png">
+				</div>
+			</div>
+		</div>
+		<div id="token">
+			<div class="tag"><img src="img/token.gif"></div>
+			<div class="tokin">
+				<div class="swim"><img src="img/books.png"></div>
+				<div class="tcont">
+					<div class="ttop">
+						<div class="loc sup">
+							<div class="storyh">
+							<p>After experiencing dumps, scams, rug pulls, fake influencers pumping their bags, and witnessing presale projects deleting their Twitter accounts he almost goes brooke, but thankfully he found $STUDYCAT and he was finally ready the coin that all early gigachads would love!
+								$STUDYCAT represents incredible profits with no smart requires on hand just love to cats and a dummie brand, you got it lucky if u ape it early. Learn it the easy way</p>
+							</div>
+							<img src="img/more.gif">
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="socials">
+			<div class="soclog"><img src="img/soc.gif"></div>
+			<div class="content">
+				<div class="soc">
+					<a href="https://t.me/UniversityCatsol" target="_blank"><img src="img/tg.gif" class="tg"></a>
+					<a href="https://x.com/UniversityCat_" target="_blank"><img src="img/tw.gif" class="tw"></a>
+				</div>
+				<div class="bird">
+					<img src="img/hype.png">
+				</div>
+			</div>
+		</div>
+	</div>
+    <script src="ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.html"></script>
+  <script>
+    function slowScroll(id) {
+      $('html, body').animate({
+        scrollTop: $(id).offset().top
+      }, 500);
+    }
+
+    $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      else
+        $("header").attr("class", "fixed");
+    });
+  </script>
+	  <script>
+document.addEventListener('DOMContentLoaded', function () {
+    var body = document.body;
+    var clicked = false;
+    
+    body.addEventListener('click', function () {
+        if (clicked) {
+            document.body.style.cursor = 'url("img/cursor.png"), auto';
+            clicked = false;
+        } else {
+            document.body.style.cursor = 'url("img/cursor2.png"), auto';
+            clicked = true;
+        }
+    });
+});
+
+
+  </script>
+
+	
+</body>
+
+
+</html>

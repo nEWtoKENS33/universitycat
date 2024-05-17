@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&amp;family=Shadows+Into+Light&amp;display=swap');
+*{
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	box-sizing: border-box;
+}
+body{
+	background-image: url('img/bg.jpg');
+	font-family: 'Indie Flower', cursive;
+	min-width: 1400px;
+	cursor: url('img/cursor.png'), auto;
+
+}
+.opac{
+	mix-blend-mode: multiply;
+}
+
+#nav img{
+	height: 100px;
+}
+#nav{
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.trans{
+	margin-top: 20px;
+	height: 20px;
+	background-image: url('img/trans.gif');
+	width: 100vw;
+	max-width: 100%;
+	min-width: 1400px;
+	background-size: 100% 100%;
+}
+#main{
+	padding-top: 150px;
+}
+#main img{
+	width: 100vw;
+	max-width: 100%;
+	min-width: 1400px;
+}
+#about{
+	width: 1200px;
+	margin: 0 auto;
+	transform: translateX(-100px) translateY(-50px) rotate(-15deg);
+}
+.tag{
+	width: 452px;
+	margin: 0 auto;
+	transform: rotate(10deg);
+}
+.content{
+	display: flex;
+}
+.content div{
+	width: 50%;
+}
+.cimg img{
+	max-width: 600px;
+	transform: rotate(25deg);
+}
+.text p{
+	top: 50%;
+	transform: translateY(50%);
+	animation-name: font;
+	animation-duration: 0.4s;
+	animation-iteration-count: infinite;
+	font-size: 25px;
+}
+#token{
+	transform: translateY(-200px);
+}
+.tokin{
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+	margin: 0 auto;
+
+}
+.tokin div{
+	width: 700px;
+}
+.ttop{
+	display: flex;
+	justify-content: space-between;
+}
+.loc{
+	width: 452px;
+}
+.loc img{
+	width: 300px;
+}
+.lq{
+	width: 300px!important;
+	margin: 0 auto;
+}
+.swim{
+	transform: translateX(-200px) translateY(-200px) rotate(15deg);
+}
+.swim img{
+	width: 800px;
+}
+
+
+.sup{
+	padding-top: 100px;
+	transform: rotate(-10deg);
+	font-size: 30px;
+	text-align: center;
+}
+.ts{
+	transform: rotate(-15deg);
+}
+.bs{
+	transform: rotate(10deg);
+}
+.tax{
+	transform: rotate(0deg);
+}
+.tt{
+	transform: rotate(10deg);
+}
+.bt{
+	transform: rotate(15deg);
+}
+.lq{
+	transform: rotate(15deg);
+}
+.tl{
+	transform: rotate(15deg);
+}
+.bl{
+	transform: rotate(15deg);
+}
+
+
+
+#socials{
+	height: 10px;
+	width: 1200px;
+	margin: 0 auto;
+	transform: translateY(-500px);
+}
+.soc img{
+	width: 500px;
+
+}
+.soclog img{
+	width: 500px;
+}
+.bird img{
+	width: 800px;
+}
+.tg{
+	transform: translateX(-280px) rotate(-15deg);
+}
+.tw{
+	transform: translateX(100px) translateY(-180px) rotate(25deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes font{
+	0%{
+		letter-spacing: 1px;
+	}
+	49%{
+		letter-spacing: 1px;
+		
+	}
+	50%{
+		letter-spacing: 1.1px;
+		
+	}
+	100%{
+		letter-spacing: 1.1px;
+	}
+}
+
+/* STORY */ 
+
+.overflow{
+	overflow: hidden;
+	transform: scale(0.95);
+}
+.story{
+	max-width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 21px;
+	font-weight: 800;
+	padding-top: 25px;
+	animation-name: stor;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+
+}
+.scene_a{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	mix-blend-mode: multiply;
+	top: 100px;
+	transform: rotate(15deg);
+}
+.scene_a img{
+	width: 400px;
+	height: 400px;
+}
+.scene_b{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	mix-blend-mode: multiply;
+	top: 500px;
+	transform: scaleX(-1.0) rotate(15deg);
+}	
+.scene_b img{
+	width: 400px;
+	height: 400px;
+}
+.scene_c{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	mix-blend-mode: multiply;
+	top: 400px;
+	right: 0px;
+	transform: rotate(15deg);
+}
+.scene_c img{
+	width: 500px;
+	height: 500px;
+}
+.scene_d{
+	width: 400px;
+	position: absolute;
+	mix-blend-mode: multiply;
+	top: 100px;
+	right: 0px;
+	transform: rotate(15deg);
+}
+.scene_d img{
+	width: 400px;
+}
+.miau{
+	transform: translateX(-500px) rotate(-20deg);
+}
+.storyh{
+	animation-name: stor;
+	animation-iteration-count: infinite;
+	animation-duration: 2s;
+
+}
+@keyframes stor{
+	0%{
+		transform: scale(1.0) rotate(0deg);;
+	}
+	25%{
+		transform: scale(1.0) rotate(0deg);;
+		
+	}
+	26%{
+		transform: scale(1.01) rotate(1deg);
+		
+	}
+	50%{
+		transform: scale(1.01) rotate(1deg);;
+	}
+	51%{
+		transform: scale(1.0) rotate(0deg);;
+	}
+	75%{
+		transform: scale(1.0) rotate(0deg);;
+		
+	}
+	76%{
+		transform: scale(1.01) rotate(-1deg);
+		
+	}
+	100%{
+		transform: scale(1.01) rotate(-1deg);;
+	}
+}
